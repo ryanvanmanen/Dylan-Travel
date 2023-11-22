@@ -114,9 +114,12 @@
       .marker {
         border: none;
         cursor: pointer;
-        height: 56px;
-        width: 56px;
-        background-image: url('https://docs.mapbox.com/help/demos/building-a-store-locator/marker.png');
+        height: 100px;
+        width: 100px;
+        
+        background-image: url('plane.png');
+        
+        
       }
 
       /* Marker tweaks */

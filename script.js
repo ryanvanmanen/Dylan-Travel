@@ -24,7 +24,6 @@
             'properties': {
               'details': '2021',
               'address': 'Taco Mazama',
-              'city': 'Washington DC',
               'country': 'Glasgow, Scotland',
             }
           },
@@ -32,12 +31,13 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [12.56, 41.87 ]
+              'coordinates': [14.575, 40.628 ]
             },
             'properties': {
-              'details': 'Visited in 2018',
-              'country': 'Italy',
+              'details': 'June 2018',
               'address': 'Amalfi Coast',
+              'country': 'Salerno, Italy',
+              
             }
           },
           {
@@ -56,12 +56,12 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [-122,37]
+              'coordinates': [-122.4156,37.800]
             },
             'properties': {
               'details': 'Moved in August 2022',
-              'address': 'San Francisco, California',
-
+              'address': 'Telegraph Hill',
+              'country': 'San Francisco, California',
             }
           },
           {
@@ -310,8 +310,8 @@ map.on('load', function() {
         const popup = new mapboxgl.Popup({ closeOnClick: true })
           .setLngLat(currentFeature.geometry.coordinates)
           .setHTML(
-            `<h3>${currentFeature.properties.country}</h3><h4>${currentFeature.properties.details}</h4>
-            <p>${currentFeature.properties.address}</p>`
+            `<h3>${currentFeature.properties.country}</h3><b>${currentFeature.properties.details}</b>
+            <br></br><b>${currentFeature.properties.address}</b>`
           )
           .addTo(map);
       }
