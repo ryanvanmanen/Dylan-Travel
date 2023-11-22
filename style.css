@@ -1,5 +1,7 @@
 
-      body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+      
+body {
         color: #404040;
         font:
           400 15px/22px 'Cambria',
@@ -33,9 +35,10 @@
       }
 
       h1 {
-        font-size: 22px;
+        font: 400 15px/22px 'Montserrat', sans-serif;
+        font-size: 25px;
         margin: 0;
-        font-weight: 400;
+        font-weight: 800;
         line-height: 20px;
         padding: 20px 2px;
       }
@@ -50,7 +53,9 @@
       }
 
       .heading {
+        
         background: #fff;
+        
         border-bottom: 1px solid #eee;
         min-height: 60px;
         line-height: 60px;
@@ -88,7 +93,7 @@
 
       .listings .item.active .title,
       .listings .item .title:hover {
-        color: #8cc63f;
+        color: #494fc9;
       }
 
       .listings .item.active {
@@ -132,16 +137,15 @@
       }
 
       .mapboxgl-popup-content {
+        
         font:
-          400 15px/22px 'Source Sans Pro',
-          'Helvetica Neue',
-          sans-serif;
+          400 15px/22px 'Montserrat', sans-serif;
         padding: 0;
         width: 180px;
       }
 
       .mapboxgl-popup-content h3 {
-        background: #91c949;
+        background: #494fc9;
         color: #fff;
         margin: 0;
         padding: 10px;
