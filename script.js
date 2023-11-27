@@ -25,6 +25,8 @@
               'details': '2021',
               'address': 'Taco Mazama',
               'country': 'Glasgow, Scotland',
+              'link': 'https://tacomazama.co.uk',
+              'google': 'https://maps.app.goo.gl/tTsmpcbTY19FPFj6A'
             }
           },
           {
@@ -37,6 +39,7 @@
               'details': 'June 2018',
               'address': 'Amalfi Coast',
               'country': 'Salerno, Italy',
+              'link': 'https://en.wikipedia.org/wiki/Amalfi_Coast'
               
             }
           },
@@ -74,6 +77,8 @@
               'details': 'Visited in August 2022',
               'address': 'Fish Bay - Arco Iris Villa',
               'country': 'Saint John, USVI',
+              'photo': 'https://photos.app.goo.gl/iczVTX1NLsXyWEVb6',
+              'google': 'https://maps.app.goo.gl/LMYPzMvDPhscgfZk9'
             }
           },
           {
@@ -115,6 +120,7 @@
               'details': 'August 2016, Iberostar - Playa Mita',
               'country': 'Nayarit, Mexico',
               'address': 'Nayarit, Mexico',
+              'google': 'https://maps.app.goo.gl/hGA1NTDK7mvhzaDW7'
               
             }
           },
@@ -197,6 +203,7 @@ map.on('load', function() {
       /**
        * Add a marker to the map for every store listing.
        **/
+      
       function addMarkers() {
         /* For each feature in the GeoJSON object above: */
         for (const marker of stores.features) {
@@ -206,6 +213,7 @@ map.on('load', function() {
           el.id = `marker-${marker.properties.id}`;
           /* Assign the `marker` class to each marker for styling. */
           el.className = 'marker';
+          
 
           /**
            * Create a marker using the div element
@@ -307,12 +315,30 @@ map.on('load', function() {
       function createPopUp(currentFeature) {
         const popUps = document.getElementsByClassName('mapboxgl-popup');
         if (popUps[0]) popUps[0].remove();
+        
+        /**
+         * Set up conditional properties
+         */
+        const linkHTML = currentFeature.properties.link
+        ? `<p><a href="${currentFeature.properties.link}" target="_blank">Visit Website</a></p>`
+        : '';
+        const googleHTML = currentFeature.properties.google
+        ? `<p><a href="${currentFeature.properties.google}" target="_blank">Google Maps</a></p>`
+        : '';
+
+        const photoHTML = currentFeature.properties.photo
+        ? `<p><a href="${currentFeature.properties.photo}" target="_blank">Photo</a></p>`
+        : '';
+
         const popup = new mapboxgl.Popup({ closeOnClick: true })
           .setLngLat(currentFeature.geometry.coordinates)
           .setHTML(
-            `<h3>${currentFeature.properties.country}</h3><b>${currentFeature.properties.details}</b>
-            <br></br><b>${currentFeature.properties.address}</b>`
-          )
+            `<h3>${currentFeature.properties.country}</h3>
+            <p><b>${currentFeature.properties.details}</b></p>
+            <p><b>${currentFeature.properties.address}</b></p>
+            ${linkHTML}
+            ${googleHTML}
+            ${photoHTML}`        )
           .addTo(map);
       }
     

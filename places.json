@@ -1,180 +1,124 @@
-const stores = {
-        'type': 'FeatureCollection',
-        'features': [
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-4.2565,55.8824288]
-            },
-            'properties': {
-              'details': 'Visited in 2021',
-              'phone': '2022347336',
-              'address': 'Glasgow, Scotland',
-              'city': 'Washington DC',
-              'country': 'Glasgow, Scotland',
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [12.56,41.87 ]
-            },
-            'properties': {
-              'details': 'Visited in 2018',
-              'phone': '2025078357',
-              'address': 'Italy',
-              'city': 'Visited in 2021',
-              'country': 'United States',
-              'crossStreet': 'at 22nd St NW',
-              'postalCode': '20037',
-              'state': 'D.C.'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-6.27,53.34]
-            },
-            'properties': {
-              'details': 'Visited in 2021',
-              'phone': '2023879338',
-              'address': 'Dublin, Ireland',
-              'crossStreet': 'at Dupont Circle',
-              'postalCode': '20036',
-              'state': 'D.C.'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-122,37]
-            },
-            'properties': {
-              'details': 'Moved in 2022',
-              'phone': '2023379338',
-              'address': 'San Francisco, California',
-              'postalCode': '20007',
-              'state': 'D.C.'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-64.75, 18.33]
-            },
-            'properties': {
-              'details': 'Visited in 2022',
-              'phone': '2025479338',
-              'address': 'Saint John, USVI',
-              'city': 'Washington DC',
-              'country': 'United States',
-              'crossStreet': 'btwn 2nd & 3rd Sts. SE',
-              'postalCode': '20003',
-              'state': 'D.C.'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-76.933492720127, 38.99225245786]
-            },
-            'properties': {
-              'address': '8204 Baltimore Ave',
-              'city': 'College Park',
-              'country': 'United States',
-              'postalCode': '20740',
-              'state': 'MD'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-77.097083330154, 38.980979]
-            },
-            'properties': {
-              'details': '(301) 654-7336',
-              'phone': '3016547336',
-              'address': '4831 Bethesda Ave',
-              'cc': 'US',
-              'city': 'Bethesda',
-              'country': 'United States',
-              'postalCode': '20814',
-              'state': 'MD'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-77.359425054188, 38.958058116661]
-            },
-            'properties': {
-              'details': '(571) 203-0082',
-              'phone': '5712030082',
-              'address': '11935 Democracy Dr',
-              'city': 'Reston',
-              'country': 'United States',
-              'crossStreet': 'btw Explorer & Library',
-              'postalCode': '20190',
-              'state': 'VA'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-77.10853099823, 38.880100922392]
-            },
-            'properties': {
-              'details': '(703) 522-2016',
-              'phone': '7035222016',
-              'address': '4075 Wilson Blvd',
-              'city': 'Arlington',
-              'country': 'United States',
-              'crossStreet': 'at N Randolph St.',
-              'postalCode': '22203',
-              'state': 'VA'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-75.28784, 40.008008]
-            },
-            'properties': {
-              'details': '(610) 642-9400',
-              'phone': '6106429400',
-              'address': '68 Coulter Ave',
-              'city': 'Ardmore',
-              'country': 'United States',
-              'postalCode': '19003',
-              'state': 'PA'
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-75.20121216774, 39.954030175164]
-            },
-            'properties': {
-              'details': '(215) 386-1365',
-              'phone': '2153861365',
-              'address': '3925 Walnut St',
-              'city': 'Philadelphia',
-              'country': 'United States',
-              'postalCode': '19104',
-              'state': 'PA'
-            }
-          },
-         
-        ]
-      };
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2688,55.8599]
+      },
+      "properties": {
+        "details": "2021",
+        "address": "Taco Mazama",
+        "country": "Glasgow, Scotland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.575, 40.628 ]
+      },
+      "properties": {
+        "details": "June 2018",
+        "address": "Amalfi Coast",
+        "country": "Salerno, Italy"
+        
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.27,53.34]
+      },
+      "properties": {
+        "details": "Visited in 2021",
+        "address": "Dublin, Ireland",
+        "country": "Dublin, Ireland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4156,37.800]
+      },
+      "properties": {
+        "details": "Moved in August 2022",
+        "address": "Telegraph Hill",
+        "country": "San Francisco, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-64.767, 18.3211]
+      },
+      "properties": {
+        "details": "Visited in August 2022",
+        "address": "Fish Bay - Arco Iris Villa",
+        "country": "Saint John, USVI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3, 48.82]
+      },
+      "properties": {
+        "details": "Visited in July 2017",
+        "address": "Paris, France",
+        "country": "Paris, France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.097083330154, 38.980979]
+      },
+      "properties": {
+        "details": "(301) 654-7336",
+        "phone": "3016547336",
+        "address": "4831 Bethesda Ave",
+        "cc": "US",
+        "city": "Bethesda",
+        "country": "United States",
+        "postalCode": "20814",
+        "state": "MD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.48, 20.787]
+      },
+      "properties": {
+        "details": "August 2016, Iberostar - Playa Mita",
+        "country": "Nayarit, Mexico",
+        "address": "Nayarit, Mexico"
+        
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-66.119, 18.427]
+      },
+      "properties": {
+        "details": "2022 ?",
+        "country": "San Juan, Puerto Rico",
+        "address": "Surfing Trip"
+        
+      }
+    }
+  
+   
+  ]
+}
+
