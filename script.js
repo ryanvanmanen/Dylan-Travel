@@ -70,7 +70,8 @@
               'address': 'Taco Mazama',
               'country': 'Glasgow, Scotland',
               'link': 'https://tacomazama.co.uk',
-              'google': 'https://maps.app.goo.gl/tTsmpcbTY19FPFj6A'
+              'google': 'https://maps.app.goo.gl/tTsmpcbTY19FPFj6A',
+              'photo': 'https://photos.app.goo.gl/GXJarVDcfCHCcGKd7'
             }
           },
 
@@ -94,8 +95,8 @@
             },
             'properties': {
               'details': 'August 2021',
-              'address': 'Steuben, Maine',
-              'country': 'Mount Desert Island',
+              'address': 'Stayed in Steuben, Maine',
+              'country': 'Mount Desert Island, Maine',
               'google': 'https://maps.app.goo.gl/UbUiMKZBmpxFTPPG7',
               'photo': 'https://photos.app.goo.gl/tV1e5YgJ2rAYvtnt8'
             }
