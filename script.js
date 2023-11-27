@@ -15,46 +15,22 @@
       const stores = {
         'type': 'FeatureCollection',
         'features': [
+         
           {
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [-4.2688,55.8599]
+              'coordinates': [-80.1857, 26.400]
             },
             'properties': {
-              'details': '2021',
-              'address': 'Taco Mazama',
-              'country': 'Glasgow, Scotland',
-              'link': 'https://tacomazama.co.uk',
-              'google': 'https://maps.app.goo.gl/tTsmpcbTY19FPFj6A'
+              'details': 'April 2023',
+              'address': 'Grandma\'s House',
+              'country': 'Boca Raton, Florida',
+              'photo': 'https://photos.app.goo.gl/4dNpc8qeJ1L7GE5R6',
+              'google': 'https://maps.app.goo.gl/xkhHsCCKw4GB7nKj6'
             }
           },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [14.575, 40.628 ]
-            },
-            'properties': {
-              'details': 'June 2018',
-              'address': 'Amalfi Coast',
-              'country': 'Salerno, Italy',
-              'link': 'https://en.wikipedia.org/wiki/Amalfi_Coast'
-              
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-6.27,53.34]
-            },
-            'properties': {
-              'details': 'Visited in 2021',
-              'address': 'Dublin, Ireland',
-              'country': 'Dublin, Ireland',
-            }
-          },
+          
           {
             'type': 'Feature',
             'geometry': {
@@ -67,6 +43,7 @@
               'country': 'San Francisco, California',
             }
           },
+
           {
             'type': 'Feature',
             'geometry': {
@@ -74,11 +51,68 @@
               'coordinates': [-64.767, 18.3211]
             },
             'properties': {
-              'details': 'Visited in August 2022',
+              'details': 'August 2022',
               'address': 'Fish Bay - Arco Iris Villa',
               'country': 'Saint John, USVI',
               'photo': 'https://photos.app.goo.gl/iczVTX1NLsXyWEVb6',
               'google': 'https://maps.app.goo.gl/LMYPzMvDPhscgfZk9'
+            }
+          },
+         
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-4.2688,55.8599]
+            },
+            'properties': {
+              'details': 'October 2021',
+              'address': 'Taco Mazama',
+              'country': 'Glasgow, Scotland',
+              'link': 'https://tacomazama.co.uk',
+              'google': 'https://maps.app.goo.gl/tTsmpcbTY19FPFj6A'
+            }
+          },
+
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-6.27,53.34]
+            },
+            'properties': {
+              'details': 'October 2021',
+              'address': 'Dublin, Ireland',
+              'country': 'Dublin, Ireland',
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-67.888, 44.4439]
+            },
+            'properties': {
+              'details': 'August 2021',
+              'address': 'Steuben, Maine',
+              'country': 'Mount Desert Island',
+              'google': 'https://maps.app.goo.gl/UbUiMKZBmpxFTPPG7',
+              'photo': 'https://photos.app.goo.gl/tV1e5YgJ2rAYvtnt8'
+            }
+          },
+          
+          
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [14.575, 40.628 ]
+            },
+            'properties': {
+              'details': 'June 2018',
+              'address': 'Amalfi Coast',
+              'country': 'Salerno, Italy',
+              'link': 'https://en.wikipedia.org/wiki/Amalfi_Coast'
             }
           },
           {
@@ -88,28 +122,12 @@
               'coordinates': [2.3, 48.82]
             },
             'properties': {
-              'details': 'Visited in July 2017',
+              'details': 'July 2017',
               'address': 'Paris, France',
               'country': 'Paris, France',
             }
           },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-77.097083330154, 38.980979]
-            },
-            'properties': {
-              'details': '(301) 654-7336',
-              'phone': '3016547336',
-              'address': '4831 Bethesda Ave',
-              'cc': 'US',
-              'city': 'Bethesda',
-              'country': 'United States',
-              'postalCode': '20814',
-              'state': 'MD'
-            }
-          },
+          
           {
             'type': 'Feature',
             'geometry': {
@@ -117,9 +135,9 @@
               'coordinates': [-105.48, 20.787]
             },
             'properties': {
-              'details': 'August 2016, Iberostar - Playa Mita',
+              'details': 'August 2016',
               'country': 'Nayarit, Mexico',
-              'address': 'Nayarit, Mexico',
+              'address': 'Iberostar - Playa Mita',
               'google': 'https://maps.app.goo.gl/hGA1NTDK7mvhzaDW7'
               
             }
