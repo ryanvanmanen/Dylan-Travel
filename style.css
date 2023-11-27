@@ -136,16 +136,23 @@ body {
       }
 
       .mapboxgl-popup-content {
-        
+        display:block;
+        box-shadow: -3px -3px 7px #fffdfdcc,3px 3px 5px rgba(94, 104, 121, 0.342),
+        -3px 3px 0px 0px rgba(227, 215, 215, 0.7);
+        text-align:center;
         font:
           400 15px/22px 'Montserrat', sans-serif;
         padding: 0;
         width: 215px;
       }
+      
 
       .mapboxgl-popup-content h3 {
+        display: block;
         background: rgb(28, 217, 129);
         color: #fff;
+        
+        text-align:center;
         margin: 0;
         padding: 10px;
         border-radius: 3px 3px 0 0;
