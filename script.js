@@ -30,7 +30,34 @@
               'google': 'https://maps.app.goo.gl/xkhHsCCKw4GB7nKj6'
             }
           },
-          
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [12.5726, 55.6799]
+            },
+            'properties': {
+              'details': 'March 2023',
+              'address': 'Denmark',
+              'country': 'Copenhagen',
+              'photo': 'https://photos.app.goo.gl/dxLAUTbz6aqtseQH7',
+              'google': 'https://maps.app.goo.gl/A65i9mcmj1spmx5o7'
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-0.1262, 51.5158]
+            },
+            'properties': {
+              'details': 'March 2023',
+              'address': 'London, United Kingdom',
+              'country': 'London, United Kingdom',
+              'photo': 'https://photos.app.goo.gl/pvXJaRqRUQLsMs939',
+              'google': 'https://maps.app.goo.gl/bssoixh2qy5r21vv6'
+            }
+          },
           {
             'type': 'Feature',
             'geometry': {
@@ -160,6 +187,8 @@
         ]
       };
 
+var visitedCountries = ['IRL','ITA', 'GBR', 
+'USA','VIR','FRA','DNK', 'MEX','PRI'];
 
 map.on('load', function() {
       map.addLayer(
@@ -182,10 +211,12 @@ map.on('load', function() {
       map.setFilter('country-boundaries', [
         "in",
         "iso_3166_1_alpha_3",
-        'IRL','ITA', 'GBR', 
-        'USA','VIR','FRA','DNK', 'MEX','PRI'
+        ...visitedCountries
       ]);
-    });
+  
+      
+  });
+
 
       /**
        * Assign a unique id to each store. You'll use this `id`
