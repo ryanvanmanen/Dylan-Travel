@@ -145,7 +145,7 @@ body {
       }
 
       .mapboxgl-popup-content h3 {
-        background: #494fc9;
+        background: rgb(28, 217, 129);
         color: #fff;
         margin: 0;
         padding: 10px;

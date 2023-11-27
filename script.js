@@ -155,7 +155,6 @@
               
             }
           },
-        
          
         ]
       };
@@ -173,7 +172,7 @@ map.on('load', function() {
           type: 'fill',
           paint: {
             'fill-color': '#264E5B',
-            'fill-opacity': 0.20,
+            'fill-opacity': 0.15,
           },
         },
         'country-label'
