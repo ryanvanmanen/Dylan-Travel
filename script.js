@@ -15,7 +15,20 @@
       const stores = {
         'type': 'FeatureCollection',
         'features': [
-         
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-121.7252, 46.7910]
+            },
+            'properties': {
+              'details': 'August 2023',
+              'address': 'Mount Rainer National Park, Skline Trail',
+              'country': 'Washington',
+              'photo': 'https://photos.app.goo.gl/jrUdqcKy5oaKJxXn9',
+              'google': 'https://maps.app.goo.gl/eE3XmP4BGW6eiFgh8'
+            }
+          },
           {
             'type': 'Feature',
             'geometry': {
@@ -68,6 +81,8 @@
               'details': 'Moved in August 2022',
               'address': 'Telegraph Hill',
               'country': 'San Francisco, California',
+              'photo': 'https://photos.app.goo.gl/QumKJ3UA9jprB3Cx5',
+              'google': 'https://maps.app.goo.gl/S1kc5duVsisFYPP96'
             }
           },
 
