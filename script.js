@@ -7,7 +7,7 @@
       const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/ryanvanmanen/clp8ylgx3001j01p4gupb7yay',
-        center: [-40.55378,34.04665],
+        center: [-4.62969,44.6387],
         zoom: 2,
         scrollZoom: true
       });
@@ -24,7 +24,7 @@
             },
             'properties': {
               'details': 'April 2023',
-              'address': 'Grandma\'s House',
+              'address': 'Grandma\'s',
               'country': 'Boca Raton, Florida',
               'photo': 'https://photos.app.goo.gl/4dNpc8qeJ1L7GE5R6',
               'google': 'https://maps.app.goo.gl/xkhHsCCKw4GB7nKj6'
@@ -62,7 +62,7 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [-122.4156,37.800]
+              'coordinates': [-122.40615,37.79941]
             },
             'properties': {
               'details': 'Moved in August 2022',
