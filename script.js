@@ -172,6 +172,7 @@
               'details': 'July 2017',
               'address': 'Paris, France',
               'country': 'Paris, France',
+              'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9'
             }
           },
           
