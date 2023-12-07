@@ -127,6 +127,8 @@
               'details': 'October 2021',
               'address': 'Dublin, Ireland',
               'country': 'Dublin, Ireland',
+              'photo': 'https://photos.app.goo.gl/kThJmCeJurPi37hbA',
+              'google': 'https://maps.app.goo.gl/c4PFtyXpn35HK5wt5'
             }
           },
           {
@@ -154,8 +156,10 @@
             'properties': {
               'details': 'June 2018',
               'address': 'Amalfi Coast',
-              'country': 'Salerno, Italy',
-              'link': 'https://en.wikipedia.org/wiki/Amalfi_Coast'
+              'country': 'Amalfi Italy',
+              'link': 'https://en.wikipedia.org/wiki/Amalfi_Coast',
+              'photo': 'https://photos.app.goo.gl/KFisQWgY2JvYbdgr6',
+              'google': 'https://maps.app.goo.gl/QXFGFMjSAbAYU2eGA'
             }
           },
           {
