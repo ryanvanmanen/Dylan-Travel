@@ -217,12 +217,27 @@
               
             }
           },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-77.13497, 18.41462]
+            },
+            'properties': {
+              'details': '2006',
+              'country': 'Jamaica',
+              'address': 'Cruise',
+              'photo': 'https://photos.app.goo.gl/nCTuNoXPxAQyYDzH8',
+              'google': 'https://maps.app.goo.gl/bref8Gxip1aPKFEK6'
+              
+            }
+          },
          
         ]
       };
 
 var visitedCountries = ['IRL','ITA', 'GBR', 
-'USA','VIR','FRA','DNK', 'MEX','PRI'];
+'USA','VIR','FRA','DNK', 'MEX','PRI','JAM'];
 
 map.on('load', function() {
       map.addLayer(
