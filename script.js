@@ -124,7 +124,7 @@
               'coordinates': [-6.27,53.34]
             },
             'properties': {
-              'address': 'October 2021',
+              'details': 'October 2021',
               'country': 'Dublin, Ireland',
               'photo': 'https://photos.app.goo.gl/kThJmCeJurPi37hbA',
               'google': 'https://maps.app.goo.gl/c4PFtyXpn35HK5wt5'
