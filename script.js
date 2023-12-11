@@ -78,7 +78,7 @@
               'coordinates': [-122.40615,37.79941]
             },
             'properties': {
-              'details': 'Moved in August 2022',
+              'details': 'August 2022 - present',
               'address': 'Telegraph Hill',
               'country': 'San Francisco, California',
               'photo': 'https://photos.app.goo.gl/QumKJ3UA9jprB3Cx5',
