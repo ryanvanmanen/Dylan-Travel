@@ -51,8 +51,8 @@
             },
             'properties': {
               'details': 'March 2023',
-              'address': 'Denmark',
-              'country': 'Copenhagen',
+              'address': 'Europe Trip 2023',
+              'country': 'Copenhagen, Denmark',
               'photo': 'https://photos.app.goo.gl/dxLAUTbz6aqtseQH7',
               'google': 'https://maps.app.goo.gl/A65i9mcmj1spmx5o7'
             }
@@ -65,7 +65,7 @@
             },
             'properties': {
               'details': 'March 2023',
-              'address': 'London, United Kingdom',
+              'address': 'Europe Trip 2023',
               'country': 'London, United Kingdom',
               'photo': 'https://photos.app.goo.gl/pvXJaRqRUQLsMs939',
               'google': 'https://maps.app.goo.gl/bssoixh2qy5r21vv6'
@@ -108,7 +108,7 @@
               'coordinates': [-4.2688,55.8599]
             },
             'properties': {
-              'details': 'October 2021',
+              'details': 'Europe Trip October 2021',
               'address': 'Taco Mazama',
               'country': 'Glasgow, Scotland',
               'link': 'https://tacomazama.co.uk',
@@ -125,7 +125,7 @@
             },
             'properties': {
               'details': 'October 2021',
-              'address': 'Dublin, Ireland',
+              'address': 'Europe Trip October 2021',
               'country': 'Dublin, Ireland',
               'photo': 'https://photos.app.goo.gl/kThJmCeJurPi37hbA',
               'google': 'https://maps.app.goo.gl/c4PFtyXpn35HK5wt5'
@@ -156,7 +156,7 @@
             'properties': {
               'details': 'June 2018',
               'address': 'Amalfi Coast',
-              'country': 'Amalfi Italy',
+              'country': 'Amalfi, Italy',
               'link': 'https://en.wikipedia.org/wiki/Amalfi_Coast',
               'photo': 'https://photos.app.goo.gl/KFisQWgY2JvYbdgr6',
               'google': 'https://maps.app.goo.gl/QXFGFMjSAbAYU2eGA'
@@ -173,7 +173,7 @@
               'address': 'Paris, France',
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
-              'google': 'https://maps.app.goo.gl/5SDPqPrLff9t7nFw7'
+              'google': 'https://maps.app.goo.gl/CDCMUboZvotiXXYu5'
             }
           },
           
