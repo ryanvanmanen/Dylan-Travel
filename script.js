@@ -168,8 +168,7 @@
               'coordinates': [2.3, 48.82]
             },
             'properties': {
-              'details': 'July 2017',
-              'address': 'Paris, France',
+              'details': 'Family Trip July 2017',
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
               'google': 'https://maps.app.goo.gl/CDCMUboZvotiXXYu5'
@@ -183,11 +182,11 @@
               'coordinates': [-105.48, 20.787]
             },
             'properties': {
-              'details': 'August 2016',
+              'details': 'Family Trip August 2016',
               'country': 'Nayarit, Mexico',
               'address': 'Iberostar - Playa Mita',
-              'google': 'https://maps.app.goo.gl/hGA1NTDK7mvhzaDW7'
-              
+              'google': 'https://maps.app.goo.gl/hGA1NTDK7mvhzaDW7',
+              'photo': 'https://photos.app.goo.gl/aocYZFWoFfvyNFWp9'
             }
           },
           {
