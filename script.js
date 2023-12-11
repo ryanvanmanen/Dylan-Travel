@@ -108,7 +108,7 @@
               'coordinates': [-4.2688,55.8599]
             },
             'properties': {
-              'details': 'Europe Trip October 2021',
+              'details': 'October 2021',
               'address': 'Taco Mazama',
               'country': 'Glasgow, Scotland',
               'link': 'https://tacomazama.co.uk',
@@ -124,7 +124,7 @@
               'coordinates': [-6.27,53.34]
             },
             'properties': {
-              'address': 'Europe Trip October 2021',
+              'address': 'October 2021',
               'country': 'Dublin, Ireland',
               'photo': 'https://photos.app.goo.gl/kThJmCeJurPi37hbA',
               'google': 'https://maps.app.goo.gl/c4PFtyXpn35HK5wt5'
@@ -168,7 +168,7 @@
               'coordinates': [2.3, 48.82]
             },
             'properties': {
-              'details': 'Family Trip July 2017',
+              'details': 'July 2017',
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
               'google': 'https://maps.app.goo.gl/CDCMUboZvotiXXYu5'
@@ -182,7 +182,7 @@
               'coordinates': [-105.48, 20.787]
             },
             'properties': {
-              'details': 'Family Trip August 2016',
+              'details': 'August 2016',
               'country': 'Nayarit, Mexico',
               'address': 'Iberostar - Playa Mita',
               'google': 'https://maps.app.goo.gl/hGA1NTDK7mvhzaDW7',
