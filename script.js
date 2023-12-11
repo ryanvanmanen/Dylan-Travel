@@ -124,7 +124,6 @@
               'coordinates': [-6.27,53.34]
             },
             'properties': {
-              'details': 'October 2021',
               'address': 'Europe Trip October 2021',
               'country': 'Dublin, Ireland',
               'photo': 'https://photos.app.goo.gl/kThJmCeJurPi37hbA',

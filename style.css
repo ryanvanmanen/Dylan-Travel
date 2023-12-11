@@ -61,7 +61,7 @@ body {
         min-height: 60px;
         line-height: 60px;
         padding: 0 10px;
-        background-color: #2d98c9;
+        background-color: rgb(71, 118, 160);
         color: #a0eea2;
       }
 
@@ -149,8 +149,8 @@ body {
 
       .mapboxgl-popup-content h3 {
         display: block;
-        background: rgb(28, 217, 129);
-        color: #fff;
+        background: rgb(71, 118, 160);
+        color: #a0eea2;
         
         text-align:center;
         margin: 0;
