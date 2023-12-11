@@ -202,6 +202,21 @@
               
             }
           },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-64.96398, 18.3355]
+            },
+            'properties': {
+              'details': 'March 2010',
+              'country': 'St. Thomas, USVI',
+              'address': 'Family Trip',
+              'photo': 'https://photos.app.goo.gl/gpWcL4ZiY9Pj5jgQ6',
+              'google': 'https://maps.app.goo.gl/soDBD3fs2THhfMTq6'
+              
+            }
+          },
          
         ]
       };
