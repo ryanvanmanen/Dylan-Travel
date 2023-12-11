@@ -196,7 +196,7 @@
               'coordinates': [-66.119, 18.427]
             },
             'properties': {
-              'details': '2022 ?',
+              'details': 'November 2021',
               'country': 'San Juan, Puerto Rico',
               'address': 'Surfing Trip',
               
