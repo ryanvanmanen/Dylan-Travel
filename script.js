@@ -168,7 +168,8 @@
               'coordinates': [2.3, 48.82]
             },
             'properties': {
-              'details': 'July 2017',
+              
+              'address':'July 2017',
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
               'google': 'https://maps.app.goo.gl/CDCMUboZvotiXXYu5'
