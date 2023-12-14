@@ -223,7 +223,7 @@
               'coordinates': [-111.82575, 34.84657]
             },
             'properties': {
-              'details': '2009',
+              'details': 'August 2007',
               'country': 'Sedona, Arizona',
               'address': 'Family Trip',
               'photo': 'https://photos.app.goo.gl/VoCPVCZMRyGypfCE9',
