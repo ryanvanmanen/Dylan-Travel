@@ -166,7 +166,8 @@
               'coordinates': [2.342, 48.8515]
             },
             'properties': {
-              'address':'July 2017',
+              'address':'Family Trip',
+              'details': 'July 2017',
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
               'google': 'https://maps.app.goo.gl/CDCMUboZvotiXXYu5'
