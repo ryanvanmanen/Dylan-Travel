@@ -219,6 +219,21 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
+              'coordinates': [-111.82575, 34.84657]
+            },
+            'properties': {
+              'details': '2009',
+              'country': 'Sedona, Arizona',
+              'address': 'Family Trip',
+              'photo': 'https://photos.app.goo.gl/VoCPVCZMRyGypfCE9',
+              'google': 'https://maps.app.goo.gl/5sQm23ZMF9KHgLHw6'
+              
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
               'coordinates': [-77.13497, 18.41462]
             },
             'properties': {
