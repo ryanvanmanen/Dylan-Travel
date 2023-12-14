@@ -163,10 +163,16 @@
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [2.3, 48.82]
+              'coordinates': [2.342, 48.8515]
             },
             'properties': {
+<<<<<<< HEAD
               'address':'July 2017',
+=======
+              
+              'address': 'Family Trip',
+			  'details': 'July 2017',
+>>>>>>> 22ca4b3900d505e5fab657dabc33db0be1115fd0
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
               'google': 'https://maps.app.goo.gl/CDCMUboZvotiXXYu5'
@@ -215,6 +221,21 @@
               
             }
           },
+		  {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-111.82575, 34.84657]
+            },
+            'properties': {
+              'details': '2009',
+              'country': 'Sedona, Arizona',
+              'address': 'Family Trip',
+              'photo': 'https://photos.app.goo.gl/nCTuNoXPxAQyYDzH8',
+              'google': 'https://maps.app.goo.gl/5sQm23ZMF9KHgLHw6'
+              
+            }
+          },
           {
             'type': 'Feature',
             'geometry': {
@@ -245,6 +266,8 @@
               
             }
           },
+		  
+		  
          
         ]
       };
