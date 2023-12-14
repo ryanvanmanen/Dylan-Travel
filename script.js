@@ -144,8 +144,6 @@
               'photo': 'https://photos.app.goo.gl/tV1e5YgJ2rAYvtnt8'
             }
           },
-          
-          
           {
             'type': 'Feature',
             'geometry': {
@@ -168,7 +166,6 @@
               'coordinates': [2.3, 48.82]
             },
             'properties': {
-              
               'address':'July 2017',
               'country': 'Paris, France',
               'photo': 'https://photos.app.goo.gl/ScQH35dUwrDWeLWv9',
