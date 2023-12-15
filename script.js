@@ -116,7 +116,6 @@
               'photo': 'https://photos.app.goo.gl/GXJarVDcfCHCcGKd7'
             }
           },
-
           {
             'type': 'Feature',
             'geometry': {
@@ -125,6 +124,7 @@
             },
             'properties': {
               'details': 'October 2021',
+              'address': 'Europe Trip 2021',
               'country': 'Dublin, Ireland',
               'photo': 'https://photos.app.goo.gl/kThJmCeJurPi37hbA',
               'google': 'https://maps.app.goo.gl/c4PFtyXpn35HK5wt5'
