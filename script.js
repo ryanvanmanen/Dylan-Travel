@@ -185,8 +185,8 @@
               'country': 'Nayarit, Mexico',
               'address': 'Iberostar - Playa Mita',
               'google': 'https://maps.app.goo.gl/hGA1NTDK7mvhzaDW7',
-              'photo': 'https://photos.app.goo.gl/aocYZFWoFfvyNFWp9'
-            }
+              'website': 'https://www.iberostarpuertovallarta.com/',
+              'photo': 'https://photos.app.goo.gl/aocYZFWoFfvyNFWp9',            }
           },
           {
             'type': 'Feature',
